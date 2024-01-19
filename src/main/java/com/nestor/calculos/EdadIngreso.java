@@ -14,7 +14,7 @@ public class EdadIngreso {
                 System.out.println("Puedes ingresar al sitio, eres mayor de edad");
             }else if (edad>1 && edad < 18){
                 System.out.println("eres menor de edad, no puedes ingresar");
-            }else if (edad <= 1 && edad>=110) System.out.println("MMM edad correcta");
+            }
         }catch (Exception e) {
             System.out.println("Ingrese una edad valida en numero: " + e.getMessage() );
 
